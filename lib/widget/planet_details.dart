@@ -27,7 +27,11 @@ class _PlanetDetailsState extends State<PlanetDetails> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Padding(
-                padding: const EdgeInsets.only(left: 16.0, right: 16.0, top: 16.0),
+                padding: const EdgeInsets.only(
+                  left: 16.0,
+                  right: 16.0,
+                  top: 16.0,
+                ),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(24),
                   child: Container(
@@ -72,8 +76,13 @@ class _PlanetDetailsState extends State<PlanetDetails> {
                                     backgroundColor: AppTheme.red,
                                     child: IconButton(
                                       padding: EdgeInsets.zero,
-                                      icon: Icon(Icons.arrow_back, color: AppTheme.white, size: 18),
-                                      onPressed: () => Navigator.of(context).pop(),
+                                      icon: Icon(
+                                        Icons.arrow_back,
+                                        color: AppTheme.white,
+                                        size: 18,
+                                      ),
+                                      onPressed: () =>
+                                          Navigator.of(context).pop(),
                                     ),
                                   ),
                                   const SizedBox(width: 12),
@@ -86,10 +95,8 @@ class _PlanetDetailsState extends State<PlanetDetails> {
                                         fontWeight: FontWeight.bold,
                                         color: AppTheme.white,
                                       ),
-                                      
                                     ),
                                   ),
-                                  
                                 ],
                               ),
                               const SizedBox(height: 12),
@@ -113,7 +120,6 @@ class _PlanetDetailsState extends State<PlanetDetails> {
                 ),
               ),
 
-              // Circular planet model, centered
               Center(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(vertical: 20.0),
@@ -130,7 +136,6 @@ class _PlanetDetailsState extends State<PlanetDetails> {
                 ),
               ),
 
-              // About + stats section
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20.0),
                 child: Column(
