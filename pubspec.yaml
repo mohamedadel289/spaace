@@ -1,5 +1,5 @@
 name: spece
-description: "A new Flutter project."
+description: "An interactive Flutter solar-system exploration app with planet details and 3D assets."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev

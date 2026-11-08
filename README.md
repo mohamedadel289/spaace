@@ -1,17 +1,21 @@
-# spaace
+# Spaace
 
-A new Flutter project.
+An interactive solar-system exploration app built with Flutter.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Browse planets with swipe and arrow navigation
+- Planet facts and detailed information
+- Planet images and 3D assets
+- Responsive dark-space themed interface
 
-A few resources to get you started if this is your first Flutter project:
+## Built with
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Flutter, Dart, LoopPageView, and Flutter 3D Controller.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run locally
+
+```bash
+flutter pub get
+flutter run
+```
